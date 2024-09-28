@@ -51,6 +51,7 @@ print("Questão 2 - Teste String")
 print(verificar_palavra())
 
 print("Questão 3 - Soma")
-print(soma())
+print(f"Valor da soma:{soma()}\n")
+
 
 
