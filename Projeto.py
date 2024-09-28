@@ -26,10 +26,22 @@ def verificar_palavra():
 
     if 'a' in palavra.lower():
         quantidade = palavra.count('a')
-        return f"\nA letra a existe na palavra {palavra}\nQuantidade de vezes que a letra a se repete: {palavra.count('a')}"
+        return f"A letra a existe na palavra {palavra}\nQuantidade de vezes que a letra a se repete: {palavra.count('a')}\n"
        
     else:
-        return f"\nA letra a não aparece na palavra {palavra}"
+        return f"A letra a não aparece na palavra {palavra}\n"
+    
+
+def soma():
+    indice = 12
+    soma = 0
+    k = 1
+
+    while k<indice:
+        k+=1
+        soma+= k 
+    
+    return soma
     
     
 print("Questão 1 - Fibonacci")
@@ -38,5 +50,7 @@ print(Fibonacci())
 print("Questão 2 - Teste String")
 print(verificar_palavra())
 
+print("Questão 3 - Soma")
+print(soma())
 
 
